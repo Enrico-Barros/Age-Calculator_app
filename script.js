@@ -100,9 +100,6 @@ function validate_day(){
 
 function reset(){
     if(return_year.innerText !== '- -' && return_month.innerText !== '- -' && return_day.innerText !== '- -'){
-        d1.value = '';
-        m1.value = '';
-        y1.value = '';
         location.reload();
     }
 }
